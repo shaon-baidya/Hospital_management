@@ -1,0 +1,18 @@
+{% extends 'navigationbar.html' %}
+
+{% load static %}
+{% block body %}
+<div class="container" style="margin-top:50px">
+<h2 class="text-center">About Us</h2>
+    <br>
+    <div class="row">
+        <div class="col-sm-4 text-center"></div>
+        <img src="{% static 'image\aboutus.jpg' %}" width="300" height="200" class="img-responsive">
+        <div class="col-sm-8 font-weight-bold mt-5">
+            Hello Friends...,<br>
+            this is a sample of hospital management project devloped by
+            Shaon Baidya using HTML , CSS , Javascript , Bootstrap , Python Django and Sqlite.
+        </div>
+    </div>
+</div>
+{% endblock %}
